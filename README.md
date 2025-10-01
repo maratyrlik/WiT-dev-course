@@ -49,9 +49,7 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
 3. IDE - aplikace pro psaní kódu
    - budeme pracovat ve Visua Studio Code (VSC)  doporučujeme stáhnou a na kurzu používat ten [https://code.visualstudio.com](https://code.visualstudio.com) (ostatní idečka nesmáme, takže v případě problému nejspíše nebudeme vědět)
    - Otevřete VSC a v levém banneru klikněte na ikonku s helptextem `Extensions`. Zadejte text `Salesforce Extension Pack` a nainstalujte
-   - Přes klávesovou zkratku `Ctrl-Shift-P` resp. `Cmd-Shift-P` (u Macu) se vám defaultně otevře příkazová lišta nahoře, zde zvolte SFDX: `Create Project With Manifest`, dále zvolte `Standard` a jako jméno projektu např. WIT_Kurz a potvrďte Enterem
-   - Otevře se vám nové okno s vaším nově vytvořeným projektem, nyní budete muset autorizovat svůj Dev org. Stiskněte opět `Ctrl-Shift-P` resp. `Cmd-Shift-P` a zvolte `SFDX: Authorize an Org`.
-   - Dále zvolte `Project Default` a Org nazvěte např. `WIT_Kurz_Dev` a potvrďte Enterem
+   - naklonujte si tento repositář File -> new window -> ikona ginu v levém panelu -> talčítko Close Repository -> vložit link na repo (https://github.com/maratyrlik/WiT-dev-course.git) -> ENTER
    - Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
    - Možná se vám zobrazí ještě stránka s tabulkou, textem a dvěma tlačítky, klikněte na Allow. Poté můžete prohlížeč zavřít.
 
