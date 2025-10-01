@@ -15,7 +15,7 @@ Na kurzu projdeme jednotlivé tématické bloky stylem 15-30-15
 🧑‍💻 3. Apex - 1.0 synchronní  
 🌐 6. Lightning Platform & UI vývoj - deklarativní  
 🌐 6. Lightning Platform & UI vývoj - programovací  
-🔄 5. Automatizace bez kódu (pro kontext) - recrod trigger (místo apexu)  
+🔄 5. Automatizace bez kódu (pro kontext) - record trigger (místo apexu)  
 🔄 5. Automatizace bez kódu (pro kontext) - screen flow (místo LWC)  
 🔗 7. Integrace - ze SF  
 🔗 7. Integrace - do SF  
@@ -25,7 +25,7 @@ Na kurzu projdeme jednotlivé tématické bloky stylem 15-30-15
 🚀 10. Deployment a správa verzí  
 
 ## Příprava
-abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli začít a nezdržovlai se setupem.
+abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli začít a nezdržovali se setupem.
 
 1. Trailhead Account
    - pokud máš, tak se přihlaš a přejdi na další bod
@@ -47,9 +47,9 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
    - Do emailu vám přijde odkaz k vytvoření nového hesla. Změňte si ho a zapamatujte.
   
 3. IDE - aplikace pro psaní kódu
-   - budeme pracovat ve Visua Studio Code (VSC)  doporučujeme stáhnou a na kurzu používat ten [https://code.visualstudio.com](https://code.visualstudio.com) (ostatní idečka nesmáme, takže v případě problému nejspíše nebudeme vědět)
+   - budeme pracovat ve Visual Studio Code (VSC)  doporučujeme stáhnout a na kurzu používat ten [https://code.visualstudio.com](https://code.visualstudio.com) (ostatní idečka neznáme, takže v případě problému nejspíše nebudeme vědět)
    - Otevřete VSC a v levém banneru klikněte na ikonku s helptextem `Extensions`. Zadejte text `Salesforce Extension Pack` a nainstalujte
-   - naklonujte si tento repositář File -> new window -> ikona ginu v levém panelu -> talčítko Close Repository -> vložit link na repo (https://github.com/maratyrlik/WiT-dev-course.git) -> ENTER
+   - naklonujte si tento repositář File -> new window -> ikona gitu v levém panelu -> tlačítko Close Repository -> vložit link na repo (https://github.com/maratyrlik/WiT-dev-course.git) -> ENTER
    - Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
    - Možná se vám zobrazí ještě stránka s tabulkou, textem a dvěma tlačítky, klikněte na Allow. Poté můžete prohlížeč zavřít.
 
