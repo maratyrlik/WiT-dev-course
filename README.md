@@ -45,6 +45,8 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
    - Poté si vámi vybraný org otvorte pomocí tlačidla `Launch`. Po otevření budete mít medzi SF tabami možnost `Get Your Login Credentials`.
    ![Get Your Login Credentials Tab](images/WIT_Screenshot_2.png)
 
+
+
    - Poté klikněte na tlačítko `Reset Your Password`.
    ![Screen with Reset Your Password](images/WIT_Screenshot_1.png)
 
