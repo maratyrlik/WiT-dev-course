@@ -27,7 +27,7 @@ Na kurzu projdeme jednotlivé tématické bloky stylem 15-30-15
 ## Příprava
 abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli začít a nezdržovali se setupem.
 
-1. Trailhead Account
+### 1. Trailhead Account
    - pokud máš, tak se přihlaš a přejdi na další bod
    - pokud ne, tak si založ zde [https://trailhead.salesforce.com](https://trailhead.salesforce.com)
    - Zvolte přihlášení přes Email (ikonka pošty), napište svoji emailovou adresu a potvrďte tlačítkem `Sign Up`.
@@ -39,7 +39,7 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
      Relationship to Salesforce - Non-Customer/Prospect  
    - Potvrďte odeslání formuláře a účet máte založený.
 
-2. Dev Org - vaše osobní salesforce vývojové prostředí
+### 2. Dev Org - vaše osobní salesforce vývojové prostředí
    - jdi na stránku [https://trailhead.salesforce.com/users/profiles/orgs](https://trailhead.salesforce.com/users/profiles/orgs)
    - Jeden org je již defaultně založený, můžete si jej přejmenovat nebo založit nový přes tlačítko `Create Playground`
    - Poté si vámi vybraný org otvorte pomocí tlačidla `Launch`. Po otevření budete mít medzi SF tabami možnost `Get Your Login Credentials`.
@@ -50,14 +50,14 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
 
    - Do emailu vám přijde odkaz k vytvoření nového hesla. Změňte si ho a spolu s username zapamatujte.
   
-3. IDE - aplikace pro psaní kódu
+### 3. IDE - aplikace pro psaní kódu
    - budeme pracovat ve Visual Studio Code (VSC)  doporučujeme stáhnout a na kurzu používat ten [https://code.visualstudio.com](https://code.visualstudio.com) (ostatní idečka neznáme, takže v případě problému nejspíše nebudeme vědět)
    - Je potrebné si také stáhnout a nainstalovat SF Cli, který umožňuje práci se salesforce metadatama. Odkaz na tool [https://developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli).
    - Otevřete VSC a v levém banneru klikněte na ikonku s helptextem `Extensions`. Zadejte text `Salesforce Extension Pack` a nainstalujte
    - naklonujte si tento repositář File -> new window -> ikona gitu v levém panelu -> tlačítko Clone Git Repository -> vložit link na repo (https://github.com/maratyrlik/WiT-dev-course.git) -> ENTER
    ![Clone Git Repository Button](images/WIT_Screenshot_3.png)
 
-4. Propojení vašeho Orgu s VS Code
+### 4. Propojení vašeho Orgu s VS Code
    - Na spodní lište kliknete na No Default Org Set. V horní lište se zobrazí možnosti. Kliknete na `SFDX: Authorize an Org` a poté na `Sandbox`.Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
    ![No Default ORG Set Button](images/WIT_Screenshot_4.png)
 
