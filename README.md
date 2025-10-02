@@ -42,12 +42,9 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
 ### 2. Dev Org - vaše osobní salesforce vývojové prostředí
    - jdi na stránku [https://trailhead.salesforce.com/users/profiles/orgs](https://trailhead.salesforce.com/users/profiles/orgs)
    - Jeden org je již defaultně založený, můžete si jej přejmenovat nebo založit nový přes tlačítko `Create Playground`
-   - Poté si vámi vybraný org otvorte pomocí tlačidla `Launch`. Po otevření budete mít medzi SF tabami možnost `Get Your Login Credentials`.
+   - Poté si vámi vybraný org otvorte pomocí tlačidla `Launch`. Po otevření budete mít medzi SF tabami možnost `Get Your Login Credentials`. Poté klikněte na tlačítko `Reset Your Password`
    ![Get Your Login Credentials Tab](images/WIT_Screenshot_2.png)
 
-
-
-   - Poté klikněte na tlačítko `Reset Your Password`.
    ![Screen with Reset Your Password](images/WIT_Screenshot_1.png)
 
    - Do emailu vám přijde odkaz k vytvoření nového hesla. Změňte si ho a spolu s username zapamatujte.
