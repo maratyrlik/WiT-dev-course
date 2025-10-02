@@ -44,8 +44,10 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
    - Jeden org je již defaultně založený, můžete si jej přejmenovat nebo založit nový přes tlačítko `Create Playground`
    - Poté si vámi vybraný org otvorte pomocí tlačidla `Launch`. Po otevření budete mít medzi SF tabami možnost `Get Your Login Credentials`.
    ![Get Your Login Credentials Tab](images/WIT_Screenshot_2.png)
+
    - Poté klikněte na tlačítko `Reset Your Password`.
-   [Screen with Reset Your Password](images/WIT_Screenshot_1.png)
+   ![Screen with Reset Your Password](images/WIT_Screenshot_1.png)
+
    - Do emailu vám přijde odkaz k vytvoření nového hesla. Změňte si ho a spolu s username zapamatujte.
   
 3. IDE - aplikace pro psaní kódu
@@ -53,10 +55,12 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
    - Je potrebné si také stáhnout a nainstalovat SF Cli, který umožňuje práci se salesforce metadatama. Odkaz na tool [https://developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli).
    - Otevřete VSC a v levém banneru klikněte na ikonku s helptextem `Extensions`. Zadejte text `Salesforce Extension Pack` a nainstalujte
    - naklonujte si tento repositář File -> new window -> ikona gitu v levém panelu -> tlačítko Clone Git Repository -> vložit link na repo (https://github.com/maratyrlik/WiT-dev-course.git) -> ENTER
-   [Clone Git Repository Button](images/WIT_Screenshot_3.png)
+   ![Clone Git Repository Button](images/WIT_Screenshot_3.png)
+
 4. Propojení vašeho Orgu s VS Code
    - Na spodní lište kliknete na No Default Org Set. V horní lište se zobrazí možnosti. Kliknete na `SFDX: Authorize an Org` a poté na `Sandbox`.Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
-   [No Default ORG Set Button](images/WIT_Screenshot_4.png)
+   ![No Default ORG Set Button](images/WIT_Screenshot_4.png)
+
    - Možná se vám zobrazí ještě stránka s tabulkou, textem a dvěma tlačítky, klikněte na Allow. Poté můžete prohlížeč zavřít.
 
 pokud si nebudete vědět rady klidně napište na mail nebo teams marek.tyrlik@enehano.cz (na subject: "WiT kurz" mi pípne notifikace 🙂)
