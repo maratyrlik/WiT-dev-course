@@ -11,18 +11,18 @@ Na kurzu projdeme jednotlivé tématické bloky stylem 15-30-15
 
 🔧 1. Úvod do Salesforce platformy  
 🏗️ 2. Vývojové nástroje a prostředí  
-📊 4. Data model a práce s daty  
-🧑‍💻 3. Apex - 1.0 synchronní  
-🌐 6. Lightning Platform & UI vývoj - deklarativní  
+📊 3. Data model a práce s daty  
+🧑‍💻 4. Apex - 1.0 synchronní  
+🌐 5. Lightning Platform & UI vývoj - deklarativní  
 🌐 6. Lightning Platform & UI vývoj - programovací  
-🔄 5. Automatizace bez kódu (pro kontext) - record trigger (místo apexu)  
-🔄 5. Automatizace bez kódu (pro kontext) - screen flow (místo LWC)  
-🔗 7. Integrace - ze SF  
-🔗 7. Integrace - do SF  
-🛡️ 8. Bezpečnost a přístupová práva  
-🧑‍💻 3. Apex - 2.0 asynchronní  
-🧪 9. Testování  
-🚀 10. Deployment a správa verzí  
+🔄 7. Automatizace bez kódu (pro kontext) - record trigger (místo apexu)  
+🔄 8. Automatizace bez kódu (pro kontext) - screen flow (místo LWC)  
+🔗 9. Integrace - ze SF  
+🔗 10. Integrace - do SF  
+🛡️ 11. Bezpečnost a přístupová práva  
+🧑‍💻 12. Apex - 2.0 asynchronní  
+🧪 13. Testování  
+🚀 14. Deployment a správa verzí  
 
 ## Příprava
 abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli začít a nezdržovali se setupem.
