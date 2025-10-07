@@ -57,7 +57,9 @@ abychom byli efektivní tak vás prosíme o přípravu prostředí abychom mohli
    ![Clone Git Repository Button](images/WIT_Screenshot_3.png)
 
 ### 4. Propojení vašeho Orgu s VS Code
-   - Na spodní lište kliknete na No Default Org Set. V horní lište se zobrazí možnosti. Kliknete na `SFDX: Authorize an Org` a poté na `Sandbox`.Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
+   - Na spodní lište kliknete na No Default Org Set. V horní lište se zobrazí možnosti. Kliknete na `SFDX: Authorize an Org`. 
+   - Pokud chcete autorizovat nový Playground, který jste si vygenerovali, klikněte na `Sandbox`. Jestliže chcete použít existující vývojářský org, zvolte `Production`.
+   - Otevře se vám okno v prohlížeči se stránkou pro přihlášení na Org. Do první kolonky vložte svůj username, který jste si zapsali bokem a heslo, které jste si nastavovali přes odkaz z mailu a potvrďte tlačítkem `Log In`.
    ![No Default ORG Set Button](images/WIT_Screenshot_4.png)
 
    - Možná se vám zobrazí ještě stránka s tabulkou, textem a dvěma tlačítky, klikněte na Allow. Poté můžete prohlížeč zavřít.
