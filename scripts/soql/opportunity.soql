@@ -3,4 +3,4 @@
 //     query text and running the command:
 //     SFDX: Execute SOQL Query with Currently Selected Text
 
-SELECT Id, Name, AmountAfterDiscount__c, DiscountPercent__c, VIN__c FROM Opportunity
+SELECT Id, Name, AmountAfterDiscount__c, DiscountPercent__c, VIN__c, VehicleBrand__c, VehicleType__c FROM Opportunity
