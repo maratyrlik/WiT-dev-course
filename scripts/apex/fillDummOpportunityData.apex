@@ -5,6 +5,8 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-string tempvar = 'Enter_your_name_here';
-System.debug('Hello World!');
-System.debug('My name is ' + tempvar);
+Opportunity record = [SELECT Id FROM Opportunity LIMIT 1];
+record.DiscountPercent__c = 100.99;
+record.AmountAfterDiscount__c = 1234567890123456.78;
+record.VIN__c= 'randomVin';
+update record;
