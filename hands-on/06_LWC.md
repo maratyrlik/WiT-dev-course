@@ -1,4 +1,4 @@
-# Úkol 03 – LWC datatable na Account (Opportunities)
+### 🌐 6. Lightning Platform & UI vývoj - programovací
 
 ## Zadání
 - Na stránku **Account** přidejte vlastní **LWC komponentu**.

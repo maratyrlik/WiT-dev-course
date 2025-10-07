@@ -1,4 +1,4 @@
-# Úkol 01 – Příprava prostředí (nová pole na Opportunity)
+### 📊 3. Data model a práce s daty 
 
 ## Zadání
 Na objektu **Opportunity** vytvořte následujících 5 nových polí. Tato pole budete používat v dalších úlohách.

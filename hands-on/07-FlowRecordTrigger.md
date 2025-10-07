@@ -1,7 +1,7 @@
-# Úkol 04 – Record-Triggered Flow (Opportunity sleva)
+### 🔄 7. Automatizace bez kódu (pro kontext) - record trigger (místo apexu)
 
 ## Cíl
-Implementovat stejnou logiku jako v Apexu pomocí **Record-Triggered Flow** a porovnat přístupy.
+Implementovat stejnou logiku jako v [Apexu](hands-on/04_ApexSync.md) pomocí **Record-Triggered Flow** a porovnat přístupy.
 
 ## Zadání
 Vytvořte **Record-Triggered Flow** na objektu **Opportunity**, který:

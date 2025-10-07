@@ -1,4 +1,4 @@
-# Úkol 02 – Synchronní Apex (Opportunity sleva)
+### 🧑‍💻 4. Apex - 1.0 synchronní 
 
 ## Zadání
 - Napište **trigger** na objektu **Opportunity**, který poběží při **insertu** a **update**.
