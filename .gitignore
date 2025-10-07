@@ -24,9 +24,6 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
-# ApexPMD cache
-.pmdCache
-
 # Eslint cache
 .eslintcache
 
