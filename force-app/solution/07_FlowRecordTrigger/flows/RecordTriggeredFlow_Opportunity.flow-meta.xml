@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>AssignAmountAfterDiscount</name>
+        <label>Assign Amount After Discount</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.AmountAfterDiscount__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AmountAfterDiscount</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <environments>Default</environments>
+    <formulas>
+        <name>AmountAfterDiscount</name>
+        <dataType>Number</dataType>
+        <expression>{!$Record.Amount} * (1 - {!$Record.DiscountPercent__c}/100)</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Record Triggered Flow: Opportunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Record Triggered Flow: Opportunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>AssignAmountAfterDiscount</targetReference>
+        </connector>
+        <filterFormula>AND(
+  {!$Record.Amount} &gt;= 0,
+  {!$Record.DiscountPercent__c} &gt;= 0,
+  OR(
+    ISNEW(),
+    ISCHANGED({!$Record.Amount}),
+    ISCHANGED({!$Record.DiscountPercent__c})
+  )
+)</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
