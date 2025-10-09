@@ -1,4 +1,4 @@
-### 🌐 6. Lightning Platform & UI vývoj - programovací
+## 🌐 6. Lightning Platform & UI vývoj - programovací
 
 ## Zadání
 - Na stránku **Account** přidejte vlastní **LWC komponentu**.
