@@ -8,3 +8,4 @@
   - **Discount %**
   - **Amount After Discount**
 - Uložte a aktivujte stránku tak, aby se komponenta zobrazovala na detailu Accountu.
+- Flexipage retrievnete do VS code
